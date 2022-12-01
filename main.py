@@ -58,7 +58,6 @@ class Job:
 
             for x in range(int(resized.size[0] / tile_size)):
                 os.makedirs(self.working_dir+'/'+ str(z) +'/'+ str(x))
-                #print(int(resized.size[0] / tile_size))
                 print('Exporting pictures: ' + str(count))
 
                 for y in range(int(resized.size[1] / tile_size)):
@@ -69,7 +68,7 @@ class Job:
 
         #delete /tmp folder after that
         shutil.rmtree(self.tmp_folder)
-        print('Done! (' + str(count) + ')')
+        print('Done! (' + str(count) + ' sliced)')
 
 
 class Tile:
