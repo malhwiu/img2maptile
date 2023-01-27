@@ -35,7 +35,7 @@ class Job:
         self.tmp_folder = self.working_dir + '/tmp'
         self.file_extention = pathlib.Path(fpath).suffix
 
-        print('Folder name: ' +self.folder_name + '\nCreating folder: ' + self.working_dir + '\nCreating folder: ' + self.tmp_folder)
+        print('Creating folder: ' + self.working_dir + '\nCreating folder: ' + self.tmp_folder)
 
         os.makedirs(self.tmp_folder)
 
