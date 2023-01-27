@@ -5,8 +5,8 @@
 
 > Supported file formats are jpeg and png
 
-1. Clone repository 
-`git clone https://github.com/malhwiu/img2maptile.git && cd img2maptile`
+1. Clone repository and checkout version 0.1.1-b
+`git clone https://github.com/malhwiu/img2maptile.git && cd img2maptile && git checkout 0.1.1-b`
 2. Install requirements
 `pip install -r requirements.txt`
 3. Create input folder and put your images there
